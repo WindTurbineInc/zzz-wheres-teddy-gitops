@@ -1,0 +1,15 @@
+app:
+  name: zzz-wheres-teddy-app
+  namespace: zzz
+  cluster: .apps.wearedevs.rl97.p1.openshiftapps.com
+
+git:
+  branch: main
+  repo: https://github.com/WindTurbineInc/zzz-wheres-teddy
+  org: WindTurbineInc
+  name: zzz-wheres-teddy
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: zzz/wheres-teddy-app
+  tag: latest
